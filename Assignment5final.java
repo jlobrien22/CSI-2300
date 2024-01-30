@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Assignment5 {
+public class Assignment5final {
 
     public static void main(String[] args) {
         if (args.length == 2) {
@@ -66,7 +66,7 @@ private static void generateAndMultiplyRandomMatrices(int size) {
         // int[][] matrix1 = generateRandomMatrix(3, 2); // 3x2 matrix
         // int[][] matrix2 = generateRandomMatrix(2, 3); // 2x3 matrix
         int[][] matrix1 = generateRandomMatrix(size);
-        int[][] matrix2 = generateRandomMatrix(size);
+        int[][] matrix2 = generateRandomMatrix(size); 
 
     private static void saveMatrixToFile(int[][] matrix, String filename) {
         try (PrintWriter writer = new PrintWriter(new FileWriter(filename))) {

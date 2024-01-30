@@ -1,17 +1,17 @@
-
 class Animal {
     public static void main(String[] args) {
         Animal myAnimal = new Animal(5, "Male");
         myAnimal.isMammal();
         myAnimal.mate();
-    
+
         Fish myFish = new Fish(2, "Female", 3);
-        myFish.canEat();
-        System.out.println("Fish size in feet: " + myFish.getSizeInFeet());
-    
+        myFish.canEat(); // Utilizing the canEat() method
+        System.out.println("Fish size in feet: " + myFish.getSizeInFeet()); // Utilizing the sizeInFeet field
+
         Zebra myZebra = new Zebra(3, "Female", true);
         myZebra.run();
     }
+
     public int age;
     public String gender;
 
@@ -26,19 +26,6 @@ class Animal {
 
     public void mate() {
         System.out.println("This is a public method mate() from class Animal");
-    }
-
-    public static void main(String[] args) {
-        Animal myAnimal = new Animal(5, "Male");
-        myAnimal.isMammal();
-        myAnimal.mate();
-
-        Fish myFish = new Fish(2, "Female", 3);
-        myFish.canEat(); // Utilizing the canEat() method
-        System.out.println("Fish size in feet: " + myFish.getSizeInFeet()); // Utilizing the sizeInFeet field
-
-        Zebra myZebra = new Zebra(3, "Female", true);
-        myZebra.run();
     }
 }
 

@@ -1,3 +1,4 @@
+
 class Animal {
     public static void main(String[] args) {
         Animal myAnimal = new Animal(5, "Male");

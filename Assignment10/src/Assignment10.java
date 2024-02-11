@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Assigment10 {
+public class Assignment10 {
 
     public static int[] readArrayFromUser() {
         Scanner scanner = new Scanner(System.in);
@@ -99,3 +99,4 @@ public class Assigment10 {
         compareSorts(arr);
     }
 }
+

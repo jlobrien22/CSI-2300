@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/obrijl22/Desktop/javafx-sdk-22/lib/**/*.jar",
+        "/Users/obrijl22/Desktop/javafx-sdk-22/**/*.jar"
+    ]
+}

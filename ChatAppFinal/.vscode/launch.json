@@ -6,10 +6,17 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Assignment13",
+            "name": "ChatApp",
             "request": "launch",
-            "mainClass": "Assignment13",
-            "projectName": "CSI-2300-1_97aa61ab"
+            "mainClass": "ChatApp",
+            "projectName": "ChatAppFinal_e67d1551"
+        },
+        {
+            "type": "java",
+            "name": "ChatServer",
+            "request": "launch",
+            "mainClass": "ChatServer",
+            "projectName": "ChatAppFinal_e67d1551"
         },
         {
             "type": "java",
@@ -22,14 +29,7 @@
             "name": "App",
             "request": "launch",
             "mainClass": "App",
-            "projectName": "CSI-2300-1_97aa61ab"
-        },
-        {
-            "type": "java",
-            "name": "Assignment14",
-            "request": "launch",
-            "mainClass": "Assignment14",
-            "projectName": "CSI-2300-1_97aa61ab",
+            "projectName": "ChatAppFinal_e67d1551",
             "vmArgs": "--module-path \"/Users/obrijl22/Desktop/javafx-sdk-22/lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]

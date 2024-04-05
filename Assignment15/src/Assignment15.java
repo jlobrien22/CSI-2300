@@ -50,7 +50,7 @@ public class Assignment15 extends Application {
         }
 
         Scene scene = new Scene(gridPane, 450, 450);
-        primaryStage.setTitle("Modified Tic Tac Toe");
+        primaryStage.setTitle("Tic Tac Toe");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
